@@ -1,0 +1,440 @@
+
+/*
+Theme Name: Event Child
+Description: Child theme for Event theme
+Author: MJDevelopZ
+Template: event
+*/
+
+/* write custom css */
+
+/*
+General Settings
+*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+#layout{
+	background-color: #fff;
+	border-top: solid 5px #c4151c;
+}
+
+#sidebar{
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+p{
+	font-family: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #c4151c;
+}
+
+.post-tag {
+    font-size: .85em;
+    color: rgba(32,39,47,.2);
+}
+
+.post-tag a:hover {
+	color: #c4151c;
+}
+
+.post-title a:hover {
+	color: #c4151c;
+}
+
+.post-stats a i:hover:before, .post-stats a i:hover {
+    color: #c4151c;
+}
+
+.comment-title, #reply-title {
+    border-top: 5px #c4151c solid;
+}
+
+.post-nav a:hover {
+    color: #c4151c;
+}
+
+.post-nav a:hover .arrow {
+	color: #c4151c;
+}
+
+/* 
+TOP NAV
+================================================ */
+#nav-bar {
+	background-color: #000;
+	width: 100%;
+	padding-top: 14px;
+	min-height: 28px;
+}
+
+.social-links .icon-medium i{
+	color: #c4151c;
+}
+
+.themify_builder_content .module-title{
+	border-top: 5px #c4151c solid;
+	text-align: center;
+}
+
+#main-nav a:hover,
+#main-nav .current_page_item a:hover, 
+#main-nav .current-menu-item a:hover{
+	box-shadow: inset 0 5px 0 0 #c4151c;
+	color: #c4151c;
+}
+
+#main-nav ul{
+	background: #c4151c;
+}
+
+#main-nav ul a, #main-nav .current_page_item ul a, #main-nav ul .current_page_item a, #main-nav .current-menu-item ul a, #main-nav ul .current-menu-item a {
+    color: #fff;
+    font: bold.9em/1.4em "Quattrocento Sans", Helvetica, sans-serif;
+    text-transform: none;
+    padding: 6px 6px 6px 15px;
+    margin: 0;
+    display: block;
+    width: 180px;
+    background: none;
+    border: none;
+    text-shadow: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* current link */
+#main-nav .current_page_item a, 
+#main-nav .current-menu-item a {
+	color: #c4151c;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover, 
+#main-nav .current-menu-item a:hover {
+	color: #000000;
+}
+/* sub-levels link */
+#main-nav ul a, 
+#main-nav .current_page_item ul a, 
+#main-nav ul .current_page_item a, 
+#main-nav .current-menu-item ul a, 
+#main-nav ul .current-menu-item a {
+	color: #fff;
+	font: normal .9em/1.4em "Quattrocento Sans", Helvetica, sans-serif;
+	text-transform: none;
+	padding: 6px 6px 6px 15px;
+	margin: 0;
+	display: block;
+	width: 180px;
+	background: none;
+	border: none;
+	text-shadow: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+/* sub-levels link :hover */
+#main-nav ul a:hover, 
+#main-nav .current_page_item ul a:hover, 
+#main-nav ul .current_page_item a:hover, 
+#main-nav .current-menu-item ul a:hover, 
+#main-nav ul .current-menu-item a:hover {
+	background-color: #000000;
+	color: #fff;
+	box-shadow: none;
+}
+
+
+
+
+/*
+HOME PAGE
+=============================================== */
+.themify_builder_2256_row.module_row_1.module_row {
+    background-color: #fff;
+    color: #ffffff;
+}
+
+.themify_builder_2256_row.module_row_2.module_row {
+    background-color: #fff;
+    color: #ffffff;
+}
+
+.themify_builder_2256_row.module_row_3.module_row {
+    background-color: #fff;
+    color: #ffffff;
+}
+
+.themify_builder .text-2256-3-0-1.module-text {
+    background-color: #000;
+}
+
+.themify_builder_2256_row.module_row_3.module_row h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.themify_builder_2256_row.module_row_4.module_row {
+    background-color: #c4151c;
+    color: #ffffff;
+}
+
+.themify_builder .text-2256-4-0-1.module-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.themify_builder .text-2256-2-0-1.module-text {
+    background-color: #c4151c;
+    text-align: center;
+}
+
+.btabs{
+	margin: 0 20px 0 20px;
+}
+
+.themify_builder_2256_row.module_row_3.module_row {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.themify_builder .text-2256-3-0-1.module-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.themify_builder_2256_row.module_row_4.module_row {
+    background-color: #c4151c;
+    font-family: 'Quattrocento Sans';
+    color: #ffffff;
+}
+
+
+
+/*
+VIDEO SLIDER
+=============================================== */
+.video.shortcode.slider {
+    max-height: 700px;
+}
+
+/*
+ABOUT PAGES
+=============================================== */
+.ui.module-accordion .accordion-content {
+	color: #000;
+    line-height: 1.4em;
+}
+
+.ui.nav.rounded.vertical.separate > li:first-child, .ui.nav.rounded.vertical.separate > li:first-child a, .ui.nav.rounded.vertical.separate > li:last-child, .ui.nav.rounded.vertical.separate > li:last-child a, .ui.module-accordion.separate.rounded li, .ui.module-accordion.separate.rounded .accordion-title, .ui.module-tab.rounded .tab-content{
+	line-height: 1.4em;
+}
+
+/*
+EVENT PAGE
+=============================================== */
+
+.themify_builder_2216_row.module_row_1.module_row {
+    background-color: #c4151c;
+    color: #fff;
+}
+
+.post-stats a i:hover:before, .post-stats a i:hover{
+	color: #c4c5c8;
+}
+
+
+/*
+EVENT GALLERIES
+=============================================== */
+.themify_builder_2234_row {
+	background-color: #fff;
+}
+
+element.style {
+    margin-left: -79.1406px;
+    margin-right: -78.8594px;
+    padding-left: 79.1406px;
+    padding-right: 78.8594px;
+    width: 1583px;
+    background-color: #fff;
+}
+
+/*
+BUSINESS DIRECTORY
+================================================ */
+ul.wpbdp-categories {
+    line-height: 1.4em;
+}
+
+
+/*
+Logged out CSS 
+================================================ */
+media="all"
+#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover {
+    background-color: #c4151c;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* FORM
+================================================ */
+/* form input */
+textarea, input[type=text], input[type=password], input[type=search], input[type=email], input[type=url] {
+	background-color: #c4c5c8;
+	color: #000;
+}
+
+/* form input:focus */
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=search]:focus, input[type=email]:focus, input[type=url]:focus {
+	background-color: #c4151c;
+	color: #fff;
+}
+
+/* form button */
+input[type=reset], input[type=submit], button {
+	background-color: #c4151c;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+/* form input:hover */
+input[type=reset]:hover, input[type=submit]:hover, button:hover {
+	background-color: #5c5d68;
+	color: #fff;
+}
+
+/* Widget
+================================================ */
+#footer .widgettitle{
+	font-size: .85em;
+}
+
+ul, ol{
+	line-height: 70%;
+}
+
+/* dropdown icon */
+#main-nav .menu-item-has-children > a:after {
+	content: none;
+	font-family: none;
+	font-size: 1em;
+	line-height: 0;
+	margin-left: 10px;
+	position: relative;
+	text-transform: none;
+	top: 0;
+}
+#main-nav ul .menu-item-has-children > a:after {
+	content: none;
+	font-family: none;
+	font-size: .65em;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+}
+
+#headerwrap #searchform #s:focus,
+#headerwrap #searchform #s:hover,
+#headerwrap #searchform .icon-search:hover + #s {
+	width: 180px;
+	color: #c4151c;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+#headerwrap #searchform .icon-search:before {
+	content: "\f002";
+	font-family: 'FontAwesome';
+	color: #c4151c;
+	font-size: 1.25em;
+	font-style: normal;
+	position: absolute;
+	right: 6px;
+	top: 20px;
+}
+
+/* buddyPress and bbPress
+================================================ */
+#item-header-content,
+.user-nicename,
+.activity{
+	color: #c4151c;
+}
+
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-topics,
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results {
+	font-size: 16px !important;
+	overflow: hidden;
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+div.bbp-breadcrumb, div.bbp-topic-tags {
+    font-size: 13px !important;
+}
+
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar .nojq .quicklinks .ab-top-menu > li > .ab-item:focus, :not(.mobile)#wpadminbar .ab-top-menu > li:hover > .ab-item, :not(.mobile)#wpadminbar .ab-top-menu > li > .ab-item:focus {
+    background: #32373c;
+    color: #c4151c;
+}
+
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{
+	color: #c4151c !important;
+}
+
+#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label, #wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label, #wpadminbar>#wp-toolbar li.hover span.ab-label{
+	color: #c4151c;
+}
+
+tr td span.bbp-admin-links a:hover {
+	color: #c4151c;
+}
+
+.menupop:hover{
+	color: #c4151c;
+}
+
+media="all"
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+    background: #32373c;
+    color: #c4151c;
+}
+
+/*
+Individual Event Items
+==============================================*/
+.single-event .event-post .event-single-wrap {
+    background-color: #c4151c;
+}
+.event-post a.button.buy:hover {
+    background-color: #5c5d60;
+    color: #fff;
+}
+
+/*
+Event Page
+==============================================*/
+.themify_builder_2216_row.module_row_1.module_row {
+    background-color: #fff;
+    color: #fff;
+}
+
+.htabs {
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}

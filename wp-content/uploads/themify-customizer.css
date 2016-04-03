@@ -1,0 +1,117 @@
+/* Themify Customize Styling */
+body {	
+	font-family:Quattrocento Sans;
+	color: #000000;
+	color: rgba(0,0,0,1); 
+}
+h1 {	
+	font-family:Montserrat; 
+}
+h2 {	
+	font-family:Montserrat; 
+}
+h3 {	
+	font-family:Montserrat; 
+}
+h4 {	
+	font-family:Quattrocento Sans; 
+}
+h5 {	
+	font-family:Quattrocento Sans; 
+}
+h6 {	
+	font-family:Quattrocento Sans; 
+}
+#headerwrap {	background-image: none;
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,1); 
+}
+#header {	
+	font-family:Montserrat;
+	color: #000000;
+	color: rgba(0,0,0,1); 
+}
+#nav-bar {	
+	background-color: #000000;
+	background-color: rgba(0,0,0,1); 
+}
+#nav-bar a {	
+	color: #c4151c;
+	color: rgba(196,21,28,1); 
+}
+#site-logo {	
+	font-family:Montserrat;	font-size:32px;
+	line-height:35px;
+display: none;
+	top: -20px;right: auto;bottom: auto;left: auto; 
+}
+#site-logo img {	
+	height: 100px; 
+}
+#site-description {	
+	font-family:Montserrat;	font-weight:bold;
+	font-weight:bold;
+	text-transform:capitalize;
+	color: #c4151c;
+	color: rgba(196,21,28,1); 
+}
+#main-nav {	
+	background-color: transparent; 
+}
+#main-nav a {	
+	font-family:Quattrocento Sans;	font-weight:bold;
+	font-weight:bold;
+
+	color: #000000;
+	color: rgba(0,0,0,1);
+	background-color: transparent;
+	border-top-width: 0px; 
+}
+#main-nav a:hover {	
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,1);
+	color: #c4151c;
+	color: rgba(196,21,28,1); 
+}
+#main-nav .current_page_item a,  #main-nav .current-menu-item a {	
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,1);
+	color: #c4151c;
+	color: rgba(196,21,28,1); 
+}
+#main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,1);
+	color: #c4151c;
+	color: rgba(196,21,28,1); 
+}
+#main-nav ul {	
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,1);margin: auto; 
+}
+#main-nav ul a, #main-nav .current_page_item ul a, #main-nav ul .current_page_item a, #main-nav .current-menu-item ul a, #main-nav ul .current-menu-item a {	
+	font-family:Quattrocento Sans;	font-weight:bold;
+	font-weight:bold;
+
+	color: #000000;
+	color: rgba(0,0,0,1); 
+}
+#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover {	
+	background-color: #c4151c;
+	background-color: rgba(196,21,28,1); 
+}
+#footerwrap {	
+	background-color: #000000;
+	background-color: rgba(0,0,0,1);margin: auto; 
+}
+#footer {	
+	color: #ffffff;
+	color: rgba(255,255,255,1);
+	font-family:Quattrocento Sans; 
+}
+#footer a {	
+	color: #c4151c;
+	color: rgba(196,21,28,1);	font-weight:bold;
+	font-weight:bold;
+ 
+}
